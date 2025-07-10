@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+/* -----common style---- */
+.container{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.raleway{
+    font-family: "Raleway", sans-serif;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.btn:hover{
+
+}
