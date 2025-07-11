@@ -38,6 +38,7 @@ background-color:rgb(210, 74, 199) ;
 .para-color{
     color: #25243280;
 }
+
 /* ------nav---- */
 nav{
     display: flex;
@@ -94,8 +95,30 @@ header{
 }
 
 /* -------users-part- */
-
-
-
+.productive-users{
+   background-color: #4E47FF1A;
+   border-radius: 15px;
+   padding: 50px;
+}
+.productive-users h1{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+.users{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.users h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+.users p{
+    color: #00000080;
+    text-align: center;
+}
 
 
