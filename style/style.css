@@ -5,13 +5,16 @@
 }
 body{
     width: 100%;
-    background-color: #F5F8FF;
+}
+main{
+       background-color: #F5F8FF;
 }
 /* -----common style---- */
 .container{
     max-width: 90%;
     width: 100%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 .raleway{
     font-family: "Raleway", sans-serif;
@@ -56,10 +59,6 @@ header{
     background-image:rgba(78, 71, 255, 0.01) url("Assets/Hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px;
-    height: 100%;
-    background-color: #4E47FF03;
-
 }
 .banner{
     text-align: center;
@@ -138,8 +137,9 @@ header{
 }
 .designers{
     display: flex;
-    justify-content: space-around;
-    align-items: center;padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 .rate{
     border-radius: 10px;
@@ -168,6 +168,37 @@ header{
    line-height: normal;
 }
 
+/* ---focus-part--- */
+.focus{
+margin-top: 20px;
+padding: 71px;
+border-radius: 14px;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.focus-text{
+    text-align: center;
+    line-height: 50px;
+}
+.focus h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+.focus p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.focus-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.focus-img img{
+    border-radius: 48px;
+}
+
+ /* ------form-part----- */
 
 
 
