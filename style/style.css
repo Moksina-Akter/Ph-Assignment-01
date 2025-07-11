@@ -11,7 +11,6 @@ body{
     max-width: 90%;
     width: 100%;
     margin: 0 auto;
-    
 }
 .raleway{
     font-family: "Raleway", sans-serif;
@@ -25,7 +24,78 @@ body{
     border-radius: 10px;
     color: white;
     border: none;
+    background-color: #4E47FF;
 }
 .btn:hover{
+background-color:rgb(210, 74, 199) ;
+}
+.primary-color{
+    color: #4E47FF;
+}
+.secondary-color{
+    color: #252432;
+}
+.para-color{
+    color: #25243280;
+}
+/* ------nav---- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-weight: 900;
+    font-size: 34px;
+}
+
+/* -------banner---- */
+header{
+    background-image:rgba(78, 71, 255, 0.01) url("Assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    height: 100%;
+    background-color: #4E47FF03;
 
 }
+.banner{
+    text-align: center;
+}
+.banner h1{
+ font-size: 65px;
+ font-weight: 700;
+}
+.banner button{
+    margin-top: 20px;
+}
+
+
+/* -------action part---- */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.text-part{
+     line-height: 50px;
+}
+.text-part h1{
+ font-weight: 700;
+ font-size: 42px;
+}
+.text-part p{
+    font-weight: 400;
+    font-size: 24px;
+}
+.img img{
+    border-radius: 20px;
+}
+
+/* -------users-part- */
+
+
+
+
+
